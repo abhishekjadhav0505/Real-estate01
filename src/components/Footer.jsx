@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
             <h1 className='text-4xl font-bold text-white'>LuxoraHomes</h1>
-            <p className='text-gray-400 mt-4'>Welcome to Luxorahomes.com. We have been serving the needs of the real estate industry in India since 2007. Our single platform is designed to meet the needs of buyers, sellers and brokers of India properties. Our success is attributed to our understanding of the needs of our customers and consistently working to meet those needs utilizing innovative e-commerce solutions.</p>
+            <p className='text-gray-400 mt-4'>Welcome to Luxorahomes.com. We have been serving the needs of the real estate industry in India since 2013. Our single platform is designed to meet the needs of buyers, sellers and brokers of India properties. Our success is attributed to our understanding of the needs of our customers and consistently working to meet those needs utilizing innovative e-commerce solutions.</p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
             <h3 className='text-white text-lg font-bold mb-4'>Company</h3>

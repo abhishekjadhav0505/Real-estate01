@@ -4,7 +4,7 @@ import Projects from './components/Projects'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { Route,Routes } from 'react-router-dom'
+
 
 
 
@@ -13,10 +13,8 @@ const App = () => {
   return (
       
     <>
-   <Routes>
-      <Route path='/' element={<Header/>}/>
-    </Routes>
-    
+  
+    <Header/>
     <About/>
     <Projects/>
     <Testimonials/>
