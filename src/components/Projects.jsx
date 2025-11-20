@@ -13,8 +13,8 @@ const Projects = () => {
       <p className='text-center text-gray-500 mb-8 max-w-80 mx-auto '>Crafting Spaces ,Building Legecies-Explore Our Portfolio</p>
 
       
-      <div className='overflow-hidden'>
-        <div  className='flex gap-32 transition-transform duration-500 ease-in-out '>
+      
+        <div  className='flex gap-32 '>
           {projectsData.map((project,index)=>(
             <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4'>
               <img src={project.image} alt={project.title} className='w-full h-auto mb-14'/>
@@ -36,7 +36,7 @@ const Projects = () => {
               
             </div>
           
-        </div>
+        
       
 
     </motion.div>

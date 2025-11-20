@@ -43,10 +43,10 @@ useEffect(()=>{
                 <img onClick={()=> setshowMobileMenu(false)} src={assets.cross_icon} className='w-6' alt="" />
             </div>
             <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-                <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
-                 <a onClick={()=> setshowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
-                  <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
-                  <a onClick={()=> setshowMobileMenu(false)} href="#Testimonaials" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
+              <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='py-2'>Home</a>
+              <a onClick={()=> setshowMobileMenu(false)} href="#About" className='py-2'>About</a>
+              <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='py-2'>Projects</a>
+              <a onClick={()=> setshowMobileMenu(false)} href="#Testimonaials" className='py-2'>Testimonials</a>
             </ul>
         </div>
     </div>
